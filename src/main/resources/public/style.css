@@ -12,7 +12,7 @@
 }
 
 .sidenav a{
-    padding: 6px 6px 6px 6px;
+    padding: 30px 10px 6px 6px;
     text-decoration: none;
     font-size: 30px;
     color: #818181;
@@ -46,12 +46,34 @@
     top: 20%;
     text-decoration: none;
     font-family: "Lucida Console",'Courier New', Courier, monospace;
-    letter-spacing: 2px;
 }
+
+/* .sele{
+    width: 600px;
+    border: 1px solid #e7e7e7;
+    font-size: 18px;
+    color: inherit;
+    background-color: #fff;
+    margin-right: 10px;
+    font-weight: 300;
+    transition: border 0.3s;
+} */
 
 .sele{
     width: 600px;
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
 }
+
+/* .sele:focus{
+    outline: none;
+    border: 1px solid #28B9B5;
+} */
 
 
 .circle{
@@ -62,21 +84,22 @@
     position: absolute;
     top:70%;
     left: 75%;
-    background-color: darkslategray;
+    background-color:black;
     text-align:center;
     cursor: pointer;
+    color: white;
 }
 
 .circle:active{
-    transform: translateY(2px);
+    transform: translateY(5px);
 }
 .ctext{
     position: absolute;
-    padding: 10px;
+    padding: 30px;
     top: 30%;
 }
 .circle:hover{
-    color: #f1f1f1;
+    color: rgb(189, 170, 170);
     margin-left: 10px;
     transition: 0.3s;
 }
