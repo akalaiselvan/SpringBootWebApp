@@ -1,0 +1,82 @@
+.sidenav{
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a{
+    padding: 6px 6px 6px 6px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.sidenav h2{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: "Rubik";
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.content{
+    position: absolute;  
+    width: 500px;  
+    left: 40%;
+    top:30%;
+}
+
+#subtitle{
+    top: 20%;
+    text-decoration: none;
+    font-family: "Lucida Console",'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+}
+
+.sele{
+    width: 600px;
+}
+
+
+.circle{
+    height: 130px;
+    width: 150px;
+    border-radius: 60%;
+    display: inline-block;
+    position: absolute;
+    top:70%;
+    left: 75%;
+    background-color: darkslategray;
+    text-align:center;
+    cursor: pointer;
+}
+
+.circle:active{
+    transform: translateY(2px);
+}
+.ctext{
+    position: absolute;
+    padding: 10px;
+    top: 30%;
+}
+.circle:hover{
+    color: #f1f1f1;
+    margin-left: 10px;
+    transition: 0.3s;
+}

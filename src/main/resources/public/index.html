@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Kit</title>
+</head>
+<body>
+    <div class="sidenav">
+        <h2>QA Kit</h2>
+        <a id="envid" href="#envir">Environment</a>
+        <a id="leadid" href="#lead">Lead Creation</a>
+        <a id="autoid" href="#auto">Automation</a>
+        <a id="regid"  href="#">Registry</a>
+    </div>
+    <div id="subtitle" class="content" style="display:none">
+        <h2>Select an option </h2>
+    </div>
+    <div id="envir" class="content" style="display:none"> 
+        <select name="envselect" id="envirselect" class="sele"> 
+            <option value="Install Setup" selected>Install Setup</option>
+            <option value="Apply Patch">Apply Patch</option>
+            <option value="Uninstall Pos">Flush Environment</option>
+        </select>
+    </div>
+    <div id="lead" class="content" style="display:none">
+        <select name="leadselect" id="leadselect" class="sele"> 
+            <option value="Only Lead">Only Lead</option>
+            <option value="Professional" selected>Professional</option>
+            <option value="Starter">Starter</option>
+            <option value="Professional and NT">Professional NT</option>
+        </select>
+    </div>
+    <div id="auto" class="content" style="display:none">   
+        <select name="autoselect" id="autoselect" class="sele">   
+            <option value="Regression">Regression</option>
+            <option value="Smoke">Smoke</option>
+            <option value="Connect Plus" selected>Connect Plus</option>
+        </select>    
+    </div>
+    <div id="start">
+        <span class="circle">
+            <div class="ctext">Select an option</div>
+        </span>
+    </div>
+</body>
+<script src="do.js"></script>
+</html>
