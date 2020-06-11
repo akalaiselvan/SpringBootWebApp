@@ -37,14 +37,6 @@ public class Hiweb {
 
     @RequestMapping(value = "/create",method = RequestMethod.GET)
     public String cr(@RequestParam("name") String nam){
-        File file = new File("/home/dell/Documents/INVEST/"+nam+".txt");
-        if (!file.exists()) {
-            try {
-                file.createNewFile();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        return "from java "+nam;
+        return "from java :"+nam;
     }
 }
