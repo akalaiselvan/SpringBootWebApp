@@ -100,23 +100,7 @@ document.getElementById('start').addEventListener('click',(event)=>{
     }else if(value===environmentLabel[1]){
         let req=`${value} ${document.getElementById('linkin').value} ${document.getElementById('versionin').value}`;
         postRequest(req);
-    }else if(value===environmentLabel[2]){
-        postRequest(value);
-    }else if(value===leadLabel[0]){
-        postRequest(value);
-    }else if(value===leadLabel[1]){
-        postRequest(value);
-    }else if(value===leadLabel[2]){
-        postRequest(value);
-    }else if(value===leadLabel[3]){
-        postRequest(value);
-    }else if(value===autoLabel[0]){
-        postRequest(value);
-    }else if(value===autoLabel[1]){
-        postRequest(value);
-    }else if(value===autoLabel[2]){
-        postRequest(value);
-    }else if(value===regLabel[0]){
+    }else{
         postRequest(value);
     }
 });
