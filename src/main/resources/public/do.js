@@ -8,7 +8,7 @@ let DOM={
     envirLabel:['InstallSetup','ApplyPatch','UninstallPos'],
     envirinput:['linkin','versionin'],
     leadlabel:['OnlyLead','Professional','Starter','ProfessionalNT'],
-    autolabel:['Regression','Smoke','ConnectPlus'],
+    autolabel:['DefaultMasters','SampleDB-GST','SampleDB-VAT'],
     reglabel:['ClearRegistry']
 }
 
